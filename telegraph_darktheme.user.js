@@ -12,7 +12,7 @@
 // @updateURL    https://raw.githubusercontent.com/maffinca69/Telegraph-DarkTheme/master/telegraph_darktheme.user.js
 // ==/UserScript==
 
-(function() {
+(function () {
     'use strict';
 
     const darkThemeCss = `/*  Background  */
@@ -49,7 +49,17 @@ body {
     background-color: #444444 !important;
     color: #ffffff !important;
 }
-    `;
+
+.tl_article .tl_article_content code,.tl_article .tl_article_content pre {
+    background-color: #2b2b2b !important;
+    color: #f3f4f8 !important;
+    border: 1px solid #404040 !important;
+    padding: 3px 6px !important;
+    border-radius: 4px !important;
+}
+.tl_article_content img, .tl_article_content video {
+    filter: brightness(0.8) contrast(1.1) !important;
+}`;
 
     GM_addStyle(darkThemeCss);
 })();
