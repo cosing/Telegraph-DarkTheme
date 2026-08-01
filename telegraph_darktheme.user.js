@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Telegraph Dark
-// @namespace    https://github.com/maffinca69/Telegraph-DarkTheme
+// @namespace    https://github.com/cosing/Telegraph-DarkTheme
 // @version      1.1
 // @description  Dark theme for the site Telegraph
 // @author       maffinca69
@@ -8,8 +8,8 @@
 // @match        https://telegra.ph/*
 // @grant        GM_addStyle
 // @run-at       document-start
-// @downloadURL  https://raw.githubusercontent.com/maffinca69/Telegraph-DarkTheme/master/telegraph_darktheme.user.js
-// @updateURL    https://raw.githubusercontent.com/maffinca69/Telegraph-DarkTheme/master/telegraph_darktheme.user.js
+// @downloadURL  https://raw.githubusercontent.com/cosing/Telegraph-DarkTheme/main/telegraph_darktheme.user.js
+// @updateURL    https://raw.githubusercontent.com/cosing/Telegraph-DarkTheme/main/telegraph_darktheme.user.js
 // ==/UserScript==
 
 (function () {
